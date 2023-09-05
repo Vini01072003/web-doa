@@ -43,15 +43,15 @@ footer {
     
     height: 40vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
     
 }
 .home{
-    background-image: url(/img/home.png);
+    background-image: url(/img/home2.png);
     width: 100%;
-    height: 110vh;
+    height: 135vh;
     display: flex;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -63,8 +63,8 @@ footer {
 }
 
 .resto{
-    background-image: url(../img//print.png);
-    height: 350vh;
+    background-image: url(../img//resto2.png);
+    height: 150vh;
     width: 100%;
     display: flex;
     background-repeat: no-repeat;
@@ -128,11 +128,11 @@ select option {
     gap: 20px;
 }
 .formatacaoText{
-    display:flex; 
-    flex-direction: column; 
-    width: 40vw;
-    align-items: center; 
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  justify-content: center;
+  background-color: #000000;
   
 }
 
@@ -146,18 +146,20 @@ select option {
 
 }
 .formatacaoBaixeOApp{
-    display:flex; 
-    flex-direction: column; 
-    justify-content: space-around; 
-    align-items: center; 
-    width: 300px;height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 100px;
     
 }
 .image_celular{
+    flex-direction: row;
     width: 1000px; 
     height: 1700px; 
     position: relative; 
-    padding-top: 200px;
+    padding-top: 0px;
 }
 .section-descricao{
     display: grid;
@@ -170,7 +172,8 @@ select option {
     gap: 80px;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: #dd2c2c;
     align-items: center;
     justify-content: center;
 }
